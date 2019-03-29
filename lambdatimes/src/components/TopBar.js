@@ -96,9 +96,11 @@ const TopBar = () => {
           <ContainerCenter secondary>ANNOUNCEMENTS</ContainerCenter>
         </ContainerCenter>
         <ContainerRight className="container-right">
-          <ContainerRight third>{`hello! ${localStorage.getItem(
-            "username"
-          )}`}</ContainerRight>
+          <ContainerRight onClick={this.signInToAccount} third>{`${
+            localStorage.getItem("username")
+              ? `hello! ${localStorage.getItem("username")}`
+              : "SIGN IN"
+          }`}</ContainerRight>
         </ContainerRight>
       </Container>
     </TobBarDiv>

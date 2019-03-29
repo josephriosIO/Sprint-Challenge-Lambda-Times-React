@@ -53,7 +53,7 @@ const Logo = styled.h1`
 const Header = () => {
   return (
     <HeaderDiv>
-      <HeaderSpan date>SMARCH 32, 2018</HeaderSpan>
+      <HeaderSpan date>MARCH 32, 2018</HeaderSpan>
       <Logo>Lambda Times</Logo>
       <HeaderSpan temp>98°</HeaderSpan>
     </HeaderDiv>
