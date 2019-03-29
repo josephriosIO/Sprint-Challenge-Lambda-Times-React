@@ -96,7 +96,9 @@ const TopBar = () => {
           <ContainerCenter secondary>ANNOUNCEMENTS</ContainerCenter>
         </ContainerCenter>
         <ContainerRight className="container-right">
-          <ContainerRight third>LOG IN</ContainerRight>
+          <ContainerRight third>{`hello! ${localStorage.getItem(
+            "username"
+          )}`}</ContainerRight>
         </ContainerRight>
       </Container>
     </TobBarDiv>

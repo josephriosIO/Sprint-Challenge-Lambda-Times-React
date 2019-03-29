@@ -23,10 +23,10 @@ const withAuthenticate = App => LoginPage =>
     render() {
       // if logged in is === to false to show LoginPage
       if (!this.state.loggedIn) {
-        return <App />;
+        return <LoginPage />;
       }
       // else if loggedIn is true show app
-      return <LoginPage />;
+      return <App />;
     }
   };
 
