@@ -29,7 +29,7 @@ class Login extends Component {
 
   render() {
     return (
-      <Form>
+      <form>
         <FormGroup>
           <Label for="exampleEmail">username</Label>
           <Input
@@ -56,7 +56,7 @@ class Login extends Component {
           </Label>
         </FormGroup>
         <Button onClick={this.signIn}>Submit</Button>
-      </Form>
+      </form>
     );
   }
 }
